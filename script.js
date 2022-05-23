@@ -858,15 +858,19 @@
             }]
         }, {
             zone: "followUs",
-            message: "Hey! Tu nous suis déjà ?",
+            message: "Hey! Tu nousvvvvvvvvvvvvvvvvvvv suis déjà ?",
             cta: [{
-                label: "LinkedIn",
+                label: "LinkedddddddddddddddddddIn",
                 className: "primary",
                 callback: () => WA.openTab("https://fr.linkedin.com/company/neo-soft-groupe")
             }, {
-                label: "Twitter",
+                label: "Twittttttttttttttter",
                 className: "primary",
-                callback: () => WA.openTab("https://twitter.com/workadventure_")
+                callback: () => WA.openTab("https://twitter.com/NeoSoft_")
+            }, {
+                label: "Test",
+                className: "primary",
+                callback: () => WA.openTab("https://twitter.com/NeoSoft_")
             }]
         }];
 
