@@ -32,21 +32,21 @@
             zone: "needHelp",
             message: "Do you need some guidance? We are happy to help you out.",
             cta: [{
-                label: "Meet us",
+                label: "Rencontrons-nous !",
                 className: "primary",
                 callback: () => WA.openTab("https://play.staging.workadventu.re/@/tcm/workadventure/wa-village")
             }]
         }, {
             zone: "followUs",
-            message: "Hey! Have you already started following us?",
+            message: "Hey ! Viens nous suivre !",
             cta: [{
                 label: "LinkedIn",
                 className: "primary",
-                callback: () => WA.openTab("https://www.linkedin.com/company/workadventu-re")
+                callback: () => WA.openTab("https://fr.linkedin.com/company/neo-soft-groupe")
             }, {
                 label: "Twitter",
                 className: "primary",
-                callback: () => WA.openTab("https://twitter.com/workadventure_")
+                callback: () => WA.openTab("https://twitter.com/NeoSoft_")
             }]
         }];
 
